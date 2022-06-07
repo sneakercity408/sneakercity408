@@ -89,7 +89,7 @@ router.get('/Jordan', async function (req, res) {
 });
 router.get('/Other', async function (req, res) {
     const shoess = await Shoes.find({brand: 'Other'}).exec();
-    res.render('sneakers/Other', { shoess });
+    res.render('sneakers/Other', { shoess});
     
     
 });

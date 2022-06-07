@@ -30,11 +30,11 @@ integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLP
                 <div class="card-body">
                   <img class="card-img-top" src= "<%= shoe.images[0].url %>"; alt="../img/nophoto.jpeg">
                   <h5 class="card-title"><a href="/sneakers/<%= shoe._id %>" class="product-name"> <%= shoe.name %></a></h5>
-                  <h6 class="card-size" ><%= shoe.size %></h6>
+                  <h6 class="card-size" > Size: <%= shoe.size %></h6>
                   <p class="card-text"> <%= shoe.location %></p>
                   <p class="price">$<%= shoe.price %></p>
                     
-                    <a href="#" class="btn btn-xs btn-outline btn-primary">Add to Cart <i class="fa fa-long-arrow-right"></i> </a>
+                    <!-- <a href="#" class="btn btn-xs btn-outline btn-primary">Add to Cart <i class="fa fa-long-arrow-right"></i> </a> -->
                 </div>
             </div>
         </div>

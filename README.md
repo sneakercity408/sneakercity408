@@ -1,16 +1,24 @@
-### Hi there 👋
 
-<!--
-**sneakercity408/sneakercity408** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# SneakerCity Project
 
-Here are some ideas to get you started:
+Personal Project of creating a website for local sneakerheads and streetwear enthuasiasts
+to sell,buy, and trade with other local enthuasiasts.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Website is hosted on: https://lamtran408.herokuapp.com/
+
+Currently in Development for public use
+
+
+- Screenshots are available to be viewed in screenshots folder above
+
+
+## Technologies used 
+
+- Bootstrap
+- Express.JS
+- Express routers
+- Passport authentication for accounts
+- Cloudinary cloud storage for uploaded pictures
+- MongoDB used to store shoes and user data
+- MapBox to show where seller's location is
+-
